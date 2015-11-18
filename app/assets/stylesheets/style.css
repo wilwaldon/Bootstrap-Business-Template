@@ -1,0 +1,48 @@
+/* Custom Stylesheet */
+
+body,
+.main,
+html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+body .header{
+  color: #ecf0f1;
+}
+
+.main p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.nav-top a {
+  color: #ecf0f1;
+}
+
+.menu,
+.header,
+.nav-top {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.main section.page3 .page_container {
+  position: absolute;
+  margin-left: -325px;
+  left: 50%;
+  top: 40%;
+  margin-bottom: 50px;
+  max-width: 650px;
+}
+
+.main section.page3 .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 70px;
+}
